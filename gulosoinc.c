@@ -1,4 +1,5 @@
 // RENAN BABINSKI
+//*******ALTERAR LINHA E COLUNA CONFORME TAMANHO DA MATRIZ*******
 #include <stdio.h>
 #include <stdlib.h>
 #define linha 5
@@ -15,7 +16,13 @@ int verificaVetor(int*vet,int tamanho,int chave){
 
 int main(){
 
-	int vet [linha][coluna] = {{20,0,0,0,0,0,30,-3},{0,0,0,0,50,-10,-30,0},{0,-10,0,5,0,10,0,3},{0,0,-30,-5,50,0,0,0},{-20,10,30,0,0,0,0,0}};
+	//Matriz de incidencia 7x7 questão A:
+	int vet [linha][coluna] = {{20,0,0,0,0,0,30,-3},{0,0,0,0,50,-10,-30,0},{0,-10,0,5,0,10,0,3},
+	{0,0,-30,-5,50,0,0,0},{-20,10,30,0,0,0,0,0}};
+
+	//Matriz de incidencia 7x9 questão B:
+	//int vet [linha][coluna] = {{2,0,0,0,6,0,0,12,0},{-2,1,0,5,0,0,0,0,0},{0,-1,40,0,0,0,0,0,0,},
+	//{0,0,0,0,-6,4,0,0,0},{0,0,0,0,0,0,0,-12,30},{0,0,0,-5,0,-4,8,0,0},{0,0,-40,0,0,0,-8,-,-30}};
 
 	int caminho[20];
 
@@ -55,17 +62,6 @@ int main(){
 
 
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
